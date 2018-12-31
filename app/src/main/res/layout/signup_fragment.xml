@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+>
+
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_alignParentTop="true"
+			android:weightSum="100"
+			android:id="@+id/fragment_signup_ll_input"
+			android:padding="20dp">
+
+		<EditText android:layout_width="match_parent"
+		          android:layout_height="wrap_content"
+		          android:digits="0123456789"
+		          android:drawableLeft="@drawable/country_code"
+		          android:drawablePadding="10dp"
+		          android:hint="@string/main_signup_country_code"
+		          android:inputType="phone"
+		          android:maxLength="7"
+		          android:textSize="12dp"
+		          android:layout_marginRight="10dp"
+		          android:maxLines="1"
+		          android:layout_weight="60"/>
+		<EditText
+				android:layout_weight="40"
+				android:textSize="12dp"
+				android:id="@+id/editTextMobile"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:digits="0123456789"
+				android:drawableLeft="@drawable/phone"
+				android:drawablePadding="10dp"
+				android:hint="@string/main_signup_mobile"
+				android:inputType="phone"
+				android:maxLines="1"
+				android:maxLength="11"/>
+
+
+	</LinearLayout>
+	<Button
+			android:id="@+id/buttonContinue"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/fragment_signup_ll_input"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="15dp"
+			android:background="@color/colorPrimaryDark"
+			android:text="@string/main_signup_confirm"
+			android:textAllCaps="false"
+			android:textColor="#cdd8f1"/>
+
+</RelativeLayout>

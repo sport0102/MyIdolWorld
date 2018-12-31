@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "369613054205",
+    "firebase_url": "https://myidolworld-f860c.firebaseio.com",
+    "project_id": "myidolworld-f860c",
+    "storage_bucket": "myidolworld-f860c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369613054205:android:4df45cdff8c71842",
+        "android_client_info": {
+          "package_name": "com.myidolworld.aiden.myidolworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369613054205-2bls000geo7ulab5ivjklhodnrmfu5s8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myidolworld.aiden.myidolworld",
+            "certificate_hash": "55585ca6840c52d3f93aeb8d22302b775a7dee5c"
+          }
+        },
+        {
+          "client_id": "369613054205-jgn9jh525hptuml5f1agk5j33ghk4f5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxs65snkN-J0BS5duQF9NDqtD9vU1Jtpo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369613054205-jgn9jh525hptuml5f1agk5j33ghk4f5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
