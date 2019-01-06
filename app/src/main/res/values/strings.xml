@@ -1,8 +1,17 @@
 <resources>
-    <string name="app_name">MyIdolWorld</string>
-    <!--MainActivity-->
-    <string name="main_signup">회원가입</string>
-    <string name="main_signup_mobile">핸드폰번호</string>
-    <string name="main_signup_country_code">국가코드</string>
-    <string name="main_signup_confirm">확인</string>
+	<string name="app_name">MyIdolWorld</string>
+	<!--SplashActivity-->
+	<string name="splash_logo">My Idol World</string>
+	<string name="splash_toast_server_check">서버점검 중입니다</string>
+
+	<!--MainActivity-->
+	<string name="main_signup">회원가입</string>
+	<string name="main_signup_hint_mobile">핸드폰번호(로그인 아이디)</string>
+	<string name="main_signup_hint_nickname">닉네임(사용자에게 보여질 아이디)</string>
+	<string name="main_signup_hint_myidol">나의 아이돌</string>
+	<string name="main_signup_hint_messenger">교환시 사용할 메신저 ID</string>
+	<string name="main_signup_messenger_kakao">카카오톡</string>
+	<string name="main_signup_messenger_line">라인</string>
+	<string name="main_signup_country_code">국가코드</string>
+	<string name="main_signup_confirm">확인</string>
 </resources>

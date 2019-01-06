@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+	<entry>
+		<key>server_check</key>
+		<value>false</value>
+	</entry>
+	<entry>
+		<key>point_color</key>
+		<value>#FA7268</value>
+	</entry>
+</defaultsMap>

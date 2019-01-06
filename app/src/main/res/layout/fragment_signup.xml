@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+>
+
+
+	<LinearLayout
+			android:layout_marginTop="20dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_alignParentTop="true"
+			android:weightSum="100"
+			android:id="@+id/fragment_signup_ll_phone"
+			android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp">
+
+		<EditText
+				android:layout_weight="40"
+				android:textSize="14dp"
+				android:id="@+id/fragment_signup_et_phone"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:digits="0123456789"
+				android:drawableLeft="@drawable/phone"
+				android:drawablePadding="10dp"
+				android:hint="@string/main_signup_hint_mobile"
+				android:inputType="phone"
+				android:maxLines="1"
+				android:maxLength="11"/>
+
+	</LinearLayout>
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:weightSum="100"
+			android:id="@+id/fragment_signup_ll_nickname"
+			android:layout_below="@+id/fragment_signup_ll_phone"
+			android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp"
+	>
+
+		<EditText
+				android:layout_weight="40"
+				android:textSize="14dp"
+				android:id="@+id/fragment_signup_et_nickname"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/nickname"
+				android:drawablePadding="10dp"
+				android:hint="@string/main_signup_hint_nickname"
+				android:maxLines="1"
+		/>
+
+	</LinearLayout>
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:weightSum="100"
+			android:id="@+id/fragment_signup_ll_myidol"
+			android:layout_below="@+id/fragment_signup_ll_nickname"
+			android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp"
+	>
+
+		<EditText
+				android:layout_weight="40"
+				android:textSize="14dp"
+				android:id="@+id/fragment_signup_et_myidol"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/myidol"
+				android:drawablePadding="10dp"
+				android:hint="@string/main_signup_hint_myidol"
+				android:maxLines="1"
+		/>
+
+	</LinearLayout>
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:weightSum="100"
+			android:id="@+id/fragment_signup_ll_messenger"
+			android:layout_below="@+id/fragment_signup_ll_myidol"
+			android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp"
+	>
+		<EditText
+				android:layout_weight="40"
+				android:textSize="14dp"
+				android:id="@+id/fragment_signup_et_messenger"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/messenger"
+				android:drawablePadding="10dp"
+				android:hint="@string/main_signup_hint_messenger"
+				android:maxLines="1"
+		/>
+		<org.angmarch.views.NiceSpinner
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="60"
+				android:layout_gravity="center_vertical"
+				android:layout_marginLeft="10dp"
+				android:backgroundTint="@android:color/transparent"
+				android:id="@+id/fragment_signup_spn_messenger"/>
+
+
+	</LinearLayout>
+	<Button
+			android:id="@+id/fragment_signup_btn_signup"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="15dp"
+			android:text="@string/main_signup"
+			android:textSize="16dp"
+			android:textAllCaps="false"/>
+
+</RelativeLayout>
